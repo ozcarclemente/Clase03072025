@@ -6,3 +6,5 @@ jobs:
     steps:
     - name: Print Something
       run: echo "Hola Pitaya!"
+    - name: Print Something 2
+      run: echo "Esto es una impresión"
