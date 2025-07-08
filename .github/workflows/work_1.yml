@@ -1,15 +1,10 @@
 name: Work 1 Oz
-on: 
-  push:
-    branches:
-      - test_1
+on: push
 jobs:
   build-node:
     runs-on: ubuntu-latest
     steps:
-    - name: Impresión
-      run: echo "Esta es la impresión 1"
-    - name: Impresión 2
-      run: echo "Esta es la impresión 2"
-    - name: Impresión 3
-      run: echo "Esta es la impresión 3"
+    - name: Print Something
+      run: echo "Hola Pitaya!"
+    - name: Print Something 2
+      run: echo "Esto es una impresión"
