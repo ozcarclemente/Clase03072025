@@ -1,7 +1,7 @@
 name: Work 1 Oz
 on: [push]
 jobs:
-  build:
+  build-node:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
